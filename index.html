@@ -372,7 +372,7 @@ function submitGate() {
   }
   emailInput.classList.remove('error'); errorMsg.classList.remove('visible');
   const r = computeResult();
-  fetch('https://formspree.io/f/xgodkabw', {
+  fetch('https://formspree.io/f/xaeedblg', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
     body: JSON.stringify({ name: name, email: email, quiz: 'negotiation-style', style: types[r.top].name })
